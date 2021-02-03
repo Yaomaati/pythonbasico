@@ -23,18 +23,10 @@ def conversion(moneda, pais):
     print("Tienes: $" + pesos + pais)
 
 if opcion == "1":
-
     conversion(dolar_mexico, " pesos mexicanos")
-    
-
 elif opcion == "2":
-
     conversion(dolar_argentina, " pesos argentinos")
-
 elif opcion == "3":
-
     conversion(dolar_colombia, " pesos colombianos")
-
 else:
-
     print("No seleccionaste ninguna opción válida")
